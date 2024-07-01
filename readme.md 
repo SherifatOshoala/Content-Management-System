@@ -1,0 +1,24 @@
+A content management system ...
+
+This is a content management system application.
+
+Use npm init to initialized the node(CMS) application
+
+make it a git repository by using the command "git init"
+
+install neccessary packages like express;
+
+Recommend: use the command "npm install" to pull all the required dependencies
+
+create an entry point called "index.js"
+
+create gitignore so as not tp push the node_module and env file
+
+spin up the server using nodejs frame work (express)
+
+
+// How to use API endpoint
+
+ app.get("/", (req, res) => {
+    res.send("welcome to my server")
+ })
